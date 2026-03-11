@@ -8,5 +8,6 @@ public class sumsw {
 
 		System.out.println("the Result is "+s);
 		JOptionPane.showMessageDialog(null,"The result is "+s);
+		
 	}
 }
