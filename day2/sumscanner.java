@@ -12,5 +12,6 @@ public class sumscanner{
 		int b = sc.nextInt();
 
 		System.out.println("result : "+(a+b));
+		sc.close();
 	}
 }
