@@ -1,9 +1,14 @@
+import javax.swing.JOptionPane;
+
 class mrp{
 		double mrp;
 
-		void getdata(int x)
+		void getdata()
 		{
-			mrp = x;
+		//  n = Integer.parseInt(JOptionPane.showInputDialog("Enter the number"));
+
+			mrp = Integer.parseInt(JOptionPane.showInputDialog("Enter the MRp"));
+			// mrp = x;
 		}
 
 		void display()
@@ -39,6 +44,7 @@ class bill extends mrp
 
 	void display()
 	{
+		JOptionPane.showMessageDialog(null,"MRP : "+mrp+  " \nGST :" +gst+ " % " +" \nDelivery Charge : "+delivery+ " \nDiscount : " +discount+ " \nTotal Amount " +total);
 		System.out.println("MRP = "+mrp);
 		System.out.println("GST = "+gst);
 		System.out.println("Delivery Charges = "+delivery);
@@ -51,7 +57,7 @@ class bill extends mrp
 public class shop{
 			public static void main(String[] args) {
 				bill b1 = new bill();
-				b1.getdata(2345);
+				b1.getdata();
 				b1.getGst(18);
 				b1.getdDelivery(50);
 				b1.getDiscount(20);
