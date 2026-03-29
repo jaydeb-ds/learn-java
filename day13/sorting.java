@@ -19,11 +19,8 @@ class sort
 				}
 			}
 		}
-
 	}
-
 }
-
 
 public class sorting
 {
