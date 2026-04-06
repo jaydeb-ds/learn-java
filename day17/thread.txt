@@ -1,0 +1,7 @@
+1. what is multithreading?
+-> multithreading is a process to execute multi threads at the same time without depending of other threads called multithreading 
+
+2.how to create thread in java?
+->  i. By extending thread class
+    ii. By implementing runnable interface
+

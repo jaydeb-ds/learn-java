@@ -10,6 +10,6 @@ public class name {
         }
         newName = newName + arr[arr.length-1];
         System.out.println(newName);
-   
+
    }   
 }
