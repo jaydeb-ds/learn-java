@@ -9,6 +9,7 @@ public class name {
             newName = newName + arr[i].charAt(0) + ". ";
         }
         newName = newName + arr[arr.length-1];
+        System.out.println("new name is:");
         System.out.println(newName);
 
    }   

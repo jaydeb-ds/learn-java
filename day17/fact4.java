@@ -9,6 +9,6 @@ public class fact4 {
             f = f * i;
         }
 
-        System.out.println("Factorial = " +f);
+        System.out.println("Factorial is = " +f);
     }
 }
