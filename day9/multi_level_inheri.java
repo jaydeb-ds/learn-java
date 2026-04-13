@@ -1,11 +1,10 @@
 class A {
     int a, b, c;
-
     void inputA(int x) {
         a = x;
     }
 }
- 
+
 class B extends A {
     void inputB(int y) {
         b = y;

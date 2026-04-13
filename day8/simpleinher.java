@@ -8,7 +8,6 @@ class A {
 		b = y;
 	}
 }
-
 class B extends A {
 	int s;
 
@@ -20,7 +19,6 @@ class B extends A {
 		System.out.println("Sum is " + s);
 	}
 }
-
 public class simpleinher {
 	public static void main(String[] args) {
 		B obj = new B();
