@@ -7,11 +7,8 @@ public class readWrite
 		// read file
 		String data = "";
 		try{
-
 			FileInputStream fis = new FileInputStream("read.txt");
-
 			int i = fis.read();
-
 			while( i != -1)
 			{
 				char c = (char) i;
@@ -19,8 +16,7 @@ public class readWrite
 				//System.out.print(c);
 				i = fis.read();
 			}
-
-			System.out.print(data);
+			// System.out.print(data);
 			fis.close();
 		}
 		catch(Exception e)
@@ -32,14 +28,11 @@ public class readWrite
 		try
 		{
 			FileOutputStream fos = new FileOutputStream("write.txt");
-
 			//String data = "hello i am jaydeb ";
-
 			fos.write(data.getBytes());
-
 			fos.close();
 
-			System.out.println("data write in the file");
+			System.out.println("\n Data write in the file successfully");
 		}
 		catch(Exception e)
 		{

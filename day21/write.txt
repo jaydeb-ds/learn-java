@@ -1,2 +1,3 @@
-hello 
-I am Jaydeb Das. learning java
+I am Jaydeb Das
+A student of Bsc.IT
+BTCST
