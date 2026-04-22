@@ -47,11 +47,11 @@ public class CalculatorAWT extends Frame implements ActionListener {
         setVisible(true);
 
         // Close window
-        addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent e) {
-                dispose();
-            }
-        });
+        // addWindowListener(new WindowAdapter() {
+        //     public void windowClosing(WindowEvent e) {
+        //         dispose();
+        //     }
+        // });
     }
 
     public void actionPerformed(ActionEvent e) {
@@ -79,6 +79,7 @@ public class CalculatorAWT extends Frame implements ActionListener {
         }
 
         t3.setText(String.valueOf(result));
+
     }
 
     public static void main(String[] args) {
