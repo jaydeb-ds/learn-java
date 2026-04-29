@@ -4,13 +4,11 @@ class A {
         a = x;
     }
 }
-
 class B extends A {
     void inputB(int y) {
         b = y;
     }
 }
-
 class C extends B {
 
     void sum() {
@@ -21,7 +19,6 @@ class C extends B {
         System.out.println("Sum : " + c);
     }
 }
-
 public class multi_level_inheri {
     public static void main(String[] args) {
         C c1 = new C();
@@ -29,6 +26,5 @@ public class multi_level_inheri {
         c1.inputB(45);
         c1.sum();
         c1.display();
-
     }
 }
