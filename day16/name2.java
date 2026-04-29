@@ -1,7 +1,7 @@
 public class name2{
    public static void main(String[] args)
    {
-        String name = "Jay Deb Das";
+        String name = "subha deb das";
         String arr[] = name.split(" ");
         String newName = "";
         for(int i = 0; i<arr.length-1; i++)
