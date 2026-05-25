@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="num">
+    <button onclick="fact()">fact</button>
+    <p id="result"> result </p>
+    
+    <script>
+        let num = document.getElementById("num");
+        let result = document.getElementById("result")
+
+        function fact() {
+            // result.innerHTML = num.value
+            let fact = 1;
+            let n = Number(num.value)
+            for(let i = 1; i<=n ; i++)
+            {
+                fact = fact*i;
+            }
+            result.innerHTML = fact
+        }
+    </script>
+</body>
+</html>
