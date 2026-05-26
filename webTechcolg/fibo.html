@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title> fibonaci </title>
+</head>
+<body>
+	<h1> Fibonacci </h2>
+	
+	<input type="number" min=0 id="num">
+	<button onclick="fact()"> factorial </button>
+	<p id="result"> result is : </p>
+
+	<script>
+		let num = document.getElementById("num")
+		let result = document.getElementById("result")
+			console.log("Result",num.value)
+
+		function fact() {
+			 let n = Number(num.value)
+			 let f = 0, s = 1, nx;
+			for(let i = 1; i<=n;i++){
+				console.log(f)
+				nx = f + s;
+				f = s;
+				s =nx;
+			}
+			//result.innerHTML = ;
+		}
+	</script>
+</body>
+</html>
