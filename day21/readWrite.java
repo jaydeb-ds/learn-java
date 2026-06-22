@@ -4,7 +4,7 @@ public class readWrite
 {
 	public static void main(String[] args)
 	{
-		// read file
+		//------------------------- read file---------------------
 		String data = "";
 		try{
 			FileInputStream fis = new FileInputStream("read.txt");
@@ -16,7 +16,7 @@ public class readWrite
 				//System.out.print(c);
 				i = fis.read();
 			}
-			// System.out.print(data);
+			System.out.print(data);
 			fis.close();
 		}
 		catch(Exception e)
@@ -24,7 +24,7 @@ public class readWrite
 			System.out.println("file read error");
 		}
 
-		// write file
+		//--------------------------------write file----------------------
 		try
 		{
 			FileOutputStream fos = new FileOutputStream("write.txt");
@@ -32,7 +32,7 @@ public class readWrite
 			fos.write(data.getBytes());
 			fos.close();
 
-			System.out.println("\n Data write in the file successfully");
+			System.out.println("\n Data write successfully");
 		}
 		catch(Exception e)
 		{

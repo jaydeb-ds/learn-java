@@ -24,10 +24,7 @@ class jdbcinsertrecord
             Statement st = con.createStatement();
 
             // Execute Insert Query
-            st.executeUpdate(
-                "insert into Employee values" +
-                "(111,'Jaydeb Das',12500)"
-            );
+            st.executeUpdate("insert into Employee values(111,'Jaydeb Das',12500)");
 
             // Display Success Message
             System.out.println("Record Inserted Successfully");

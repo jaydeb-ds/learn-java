@@ -13,10 +13,6 @@ public class ArrExp {
         {
             System.out.println("Array index is out of range");
         }
-        finally
-        {
-            System.out.println("program Continue....");
-        }
 	}
 }
  

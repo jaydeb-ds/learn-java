@@ -24,12 +24,7 @@ class jdbcdemo
             Statement st = con.createStatement();
 
             // Execute SQL Query
-            st.executeUpdate(
-                "create table Student(" +
-                "SID INTEGER, " +
-                "SNAME VARCHAR(30), " +
-                "SROLL INTEGER)"
-            );
+            st.executeUpdate("create table Student(SID INTEGER,SNAME VARCHAR(30),SROLL INTEGER)");
 
             // Display Success Message
             System.out.println("Table Created Successfully");

@@ -2,6 +2,13 @@ class box{
 
     int a, b, area;
 
+    box()
+    {
+        a = 0;
+        b = 0;
+        area = 0;
+    }
+
     box(int x)
     {
         a = x;
@@ -21,12 +28,15 @@ class box{
     }
 }
 
-public class cons2 {
+public class area {
     public static void main(String[] args) {
-        box b1 = new box(7);
+        box b1 = new box();
         b1.display();
 
-        box b2 = new box(4,6);
+        box b2 = new box(4);
         b2.display();
-    }
+
+        box b3 = new box(5, 6);
+        b3.display();
+        }
 }
